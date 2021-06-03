@@ -6,10 +6,5 @@ import { Post } from './posts/post.model';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  storedPosts: Post[]= [];
-  title= "mean-application"
-  OnPostAdded(post) {
-    this.storedPosts.push(post);
-  }
-}
+export class AppComponent {}
+
